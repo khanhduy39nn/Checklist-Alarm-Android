@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+    <color name="background_color_red">#89c28c</color>
+    <color name="font_white">#fff</color>
+
+    <color name="background_enable_alarm">#35c8a0</color>
+    <color name="background_disable_alarm">#bdbdbd</color>
+
+    <color name="background_item_alarm_1">#eeb934</color>
+    <color name="background_item_alarm_2">#e7a235</color>
+    <color name="background_item_alarm_3">#da752e</color>
+    <color name="background_item_alarm_4">#6f64bf</color>
+    <color name="background_item_alarm_5">#5b52aa</color>
+    <color name="background_item_alarm_6">#413d93</color>
+
+</resources>

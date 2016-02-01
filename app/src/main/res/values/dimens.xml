@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="lin_layout">300dp</dimen>
+    <dimen name="font_size_clock">50dp</dimen>
+    <dimen name="font_weight_hour">23dp</dimen>
+    <dimen name="padding_layout">5dp</dimen>
+
+    <!-- item alarm -->
+    <dimen name="height_button_enable_alarm">100dp</dimen>
+    <dimen name="margin_left_button_enable_alarm">10dp</dimen>
+    <dimen name="width_button_enable_alarm">10dp</dimen>
+    <dimen name="font_size_item_alarm">50dp</dimen>
+    <dimen name="font_size_title_alarm">20dp</dimen>
+
+</resources>
+
+

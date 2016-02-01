@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ander39n.checklistalarm.Main2Activity"
+    android:paddingLeft="@dimen/padding_layout"
+    android:id="@+id/itemLayout"
+    >
+
+
+    <Button
+        android:layout_width="@dimen/width_button_enable_alarm"
+        android:layout_height="@dimen/height_button_enable_alarm"
+        android:id="@+id/btnEnableThisAlarm"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/background_enable_alarm"
+        android:paddingLeft="@dimen/margin_left_button_enable_alarm"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03:09"
+        android:id="@+id/txtTime"
+        android:textColor="@color/font_white"
+        android:textSize="@dimen/font_size_item_alarm"
+        android:layout_alignBottom="@+id/btnEnableThisAlarm"
+        android:layout_toStartOf="@+id/txtGrub"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PM"
+        android:textColor="@color/font_white"
+        android:id="@+id/txtGrub"
+        android:paddingRight="@dimen/margin_left_button_enable_alarm"
+        android:layout_toStartOf="@+id/btnEnableThisAlarm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to school"
+        android:id="@+id/txtTitle"
+        android:textColor="@color/font_white"
+        android:layout_below="@+id/txtGrub"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/font_size_title_alarm"
+        />
+
+</RelativeLayout>
